@@ -1,4 +1,4 @@
-var socket = io("localhost:64356");
+var socket = io("https:api.chesswar.io");
 
 var messages = document.getElementById('messages');
 var form = document.getElementById('form');

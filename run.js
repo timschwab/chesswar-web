@@ -8,7 +8,7 @@ const io = new Server(server);
 
 // Constants
 const dir = __dirname;
-const port = 64355;
+const port = 8001;
 
 // Serve up the files I guess
 app.get('/', (req, res) => {
