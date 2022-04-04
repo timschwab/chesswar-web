@@ -1,2 +1,1 @@
-// Do stuff
-console.log("henlo")
+let socket = io();
