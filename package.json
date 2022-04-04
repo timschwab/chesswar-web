@@ -1,0 +1,17 @@
+{
+	"author": "Tim Schwab",
+	"name": "chesswar-web",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timschwab/chesswar-web.git"
+	},
+	"bugs": {
+		"url": "https://github.com/timschwab/chesswar-web/issues"
+	},
+	"homepage": "https://github.com/timschwab/chesswar-web",
+	"dependencies": {
+		"express": "^4.17.1",
+		"uuid": "^8.3.2"
+	}
+}
