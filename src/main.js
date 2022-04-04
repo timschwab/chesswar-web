@@ -1,4 +1,4 @@
-var socket = io();
+var socket = io("localhost:64356");
 
 var messages = document.getElementById('messages');
 var form = document.getElementById('form');
