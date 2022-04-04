@@ -13,8 +13,10 @@ const port = 64355;
 // Serve up the files I guess
 io.on('connection', (socket) => {
 	console.log('A user connected');
+
 	socket.on('message', (msg) => {
-		console.log('message: ' + msg);
+		console.log('message:' + msg);
+		io.emit('message', msg);
 	});
 });
 
